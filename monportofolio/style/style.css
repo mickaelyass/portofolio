@@ -1,0 +1,159 @@
+.text-orange{
+    color: orange;
+}
+body{
+
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pacc{
+    background-image:url(/image/3037_1400x1050.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.session-p{
+    height: 100%;
+
+}
+.border-none{
+    border: none;
+}
+
+.w200{
+    width: 200px;
+}
+.jsc{
+    justify-content: center;
+}
+.jsb{
+    justify-content: space-between;
+}
+.h20{
+    height: 20vh;
+    border: solid 2px rgb(0, 0, 0) ;
+    border-radius: 20px;
+}
+
+.h100{
+    height: 100%;
+}
+.bordercont{
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+.bord{
+    border: ridge 2px black;
+}
+.error-message  ,.sent-message,.loading{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.list{
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.libor{
+    background-color:#f2f3f5 ;
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: double 1px rgb(0, 3, 0);
+    border-radius: 20px;
+    color: transparent;
+    text-align: center;
+}
+.libor:hover{
+    background-color: rgb(19, 22, 20);
+    color: transparent;
+    opacity: 0.9;
+}
+.text-verte{
+    color: green;
+}
+.bg-verte{
+background-color: green;
+}
+.bgb{
+    background-color:lightsteelblue;
+    background-size: cover;
+
+}
+.real{
+    border: double 2px orange;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.ovf{
+    overflow:auto;
+}
+.box{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.016),rgba(255, 255, 255, 0.016));
+    margin-right: 20px;
+    padding: 20px;
+   } 
+   .htmlcssjc{
+    background-image: url(/image/responsive-web-design-web-development-bootstrap-html-javascript-world-wide-web-40539581fb01ab46cb09d88bd4f4178d.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .pg{
+    background-image: url(/image/pngwing.com.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .bck{
+    background-image: url(/image/pngwing.com\ \(2\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .ps{
+    background-image: url(/image/pngwing.com\ \(3\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .php{
+    background-image: url(/image/pngwing.com\ \(1\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .os{
+    background-image: url(/image/pngwing.com\ \(4\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .an{
+    background-image: url(/image/pngwing.com\ \(5\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .c{
+    background-image: url(/image/pngwing.com\ \(6\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .text-t{
+    color: transparent;
+   }
+
+   
