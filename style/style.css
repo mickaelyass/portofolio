@@ -105,55 +105,58 @@ background-color: green;
     padding: 20px;
    } 
    .htmlcssjc{
-    background-image: url(/image/responsive-web-design-web-development-bootstrap-html-javascript-world-wide-web-40539581fb01ab46cb09d88bd4f4178d.png);
+    background-image: url(/image/htcssll.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .pg{
-    background-image: url(/image/pngwing.com.png);
+    background-image: url(/image/pngwing.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .bck{
-    background-image: url(/image/pngwing.com\ \(2\).png);
+    background-image: url(/image/pngwing2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .ps{
-    background-image: url(/image/pngwing.com\ \(3\).png);
+    background-image: url(/image/pngwing3.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .php{
-    background-image: url(/image/pngwing.com\ \(1\).png);
+    background-image: url(/image/pngwing1.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .os{
-    background-image: url(/image/pngwing.com\ \(4\).png);
+    background-image: url(/image/pngwing4.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .an{
-    background-image: url(/image/pngwing.com\ \(5\).png);
+    background-image: url(/image/pngwing5.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .c{
-    background-image: url(/image/pngwing.com\ \(6\).png);
+    background-image: url(/image/pngwing6.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .text-t{
     color: transparent;
+   }
+   .bg-plan{
+    background-image: radial-gradient(rgba(0, 128, 0, 0.534) ,rgba(255, 255, 255, 0.514));
    }
 
    

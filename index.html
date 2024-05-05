@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/aos.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="/fontawesome/css/brands.css">
     <title>Mon portofolio</title>
 </head>
 <body>
-   <div class="container-fluid bg-light session-p py-5  px-5">
+   <div class="container-fluid bg-plan session-p py-5  px-5">
     <nav class="navbar navbar-expand-lg fixed-top bg-dark ">
     <div class="container-fluid">
     <span class="navbar-brand text-verte" href="#">Mickaelyass</span>
@@ -38,65 +39,67 @@
   </div>
 </nav>
         <div class="row my-5 px-5 py-5  " id="portofolio">
-            <div class="col-md-7 px-3 py-5 ">
+            <div class="col-md-7 px-3 py-5 "data-aos="slide-right" >
                     <h1>
                         <span>Hola</span> <br>
                         <span>Mon nom est </span><span class="text-verte">Mickael</span> 
                     </h1>
                     <p class="h2"><span class="hero"  >Je suis développeur web backend , passioné par les systèmes d'information</span></p>
                     <p> Avec une passion pour la technologie et un désir d'apprendre et de croître, je suis prêt à relever les défis du développement web et de la gestion des systèmes, tout en apportant une contribution précieuse à votre équipe et à vos projets.</p>
-                
+                <div>
+                  <button class="btn btn-outline-success" type="submit"><a class="btn text-dark" aria-current="page" href="#cont">Contactez moi</a></button>
+                </div>
             </div>
 
-            <div class="col-md-5 px-3  py-5">
+            <div class="col-md-5 px-3  py-5" data-aos="slide-left" >
                 <img src="image/profil.jpg" class="profil rounded-pill " alt="profil " srcset="">
             </div>
         </div>
    </div>
    
    <div class="row jsb px-5 py-4 bg-dark text-light" id="apropos">
-    <div class="col-md-3 px-5">
+    <div class="col-md-3 px-5" data-aos="fade-right">
         <h2 class="text-verte"> A propos de moi</h2>
     </div>
-    <div class="col-md-8 px-5">
+    <div class="col-md-8 px-5"data-aos="fade-left" >
        <p>Après avoir enseigné les mathématiques pendant plusieurs années, j'ai récemment terminé une formation en système d'information et réseau informatique. Passionné par le potentiel transformateur de la technologie, j'ai choisi de pivoter vers le domaine de l'informatique pour explorer de nouvelles possibilités et élargir mes horizons. Fort de mon bagage en éducation et de ma nouvelle expertise en informatique, je suis maintenant prêt à m'engager dans des projets passionnants et à contribuer au monde de la technologie avec enthousiasme et détermination.</p> 
     </div>
     
    </div>
 
-   <div class="row py-5  h100 px-5 ovf jsc " id="comp">
+   <div class="row py-5  h100 px-5 ovf jsc  bg-plan" id="comp" >
     <h2 class="text-verte mb-5 px-5 ">Mes Compétences</h2>
 
       <ul class="d-flex list" >
         
-        <li class="libor htmlcssjc ">Maitrise des language web coté frontend tel que le html,css(bootstrap) ,java script(react)
+        <li class="libor htmlcssjc "data-aos="flip-right">Maitrise des language web coté frontend tel que le html,css(bootstrap) ,java script(react)
         <br><br>
           <span class="text-t ">titre</span>
         </li>
-        <li class="libor pg">Utilisation aisé du SGBD postgresql pour gerer les bases de données
+        <li class="libor pg"data-aos="flip-right">Utilisation aisé du SGBD postgresql pour gerer les bases de données
         <br>
           <span class="text-t ">titre</span>
         </li>
-        <li class="libor bck">Maitrise le langage php et le framework  django de python pour le backend d'un site web
+        <li class="libor bck"data-aos="flip-left">Maitrise le langage php et le framework  django de python pour le backend d'un site web
           <br>
           <span class="text-t ">titre</span>
         </li>
-        <li class="libor ps"> Création et élaboration des visuels avec l'outils Photoshop
+        <li class="libor ps"data-aos="flip-left"> Création et élaboration des visuels avec l'outils Photoshop
           <br>
           <span class="text-t ">titre</span>
         </li>
-        <li class="libor php" >Conception des flyers, cartes de visite et logo <br><br>
+        <li class="libor php" data-aos="flip-right">Conception des flyers, cartes de visite et logo <br><br>
           <span class="text-t">titre</span>
         </li>
-        <li class="libor os">Installation des systèmes d'exploitation windows et linux sur des  pc et serveurs
+        <li class="libor os"data-aos="flip-right">Installation des systèmes d'exploitation windows et linux sur des  pc et serveurs
           <br>
           <span  class="text-t">fffff</span>
         </li>
-        <li class="libor c">Capacité d’adaptation
+        <li class="libor c"data-aos="flip-left">Capacité d’adaptation
           <br>
           <span class="text-t py-3">titre</span>
         </li>
-        <li class="libor an">Animation de travail
+        <li class="libor an"data-aos="flip-left">Animation de travail
           <br>
           <span class="text-t py-3">titre</span>
         </li>
@@ -108,23 +111,23 @@
     <h2 class="text-verte  mb-5 px-5">Mes Projects</h2>
     <div class="container-fluid text-center jsc"> 
 
-      <div class="container-fluid d-flex  gap-5 flex-wrap py-3 jsc">
-        <div class="box">
+      <div class="container-fluid d-flex  gap-5 flex-wrap py-3 jsc" >
+        <div class="box"data-aos="fade-right">
          <img width="450px" class="real"  height="250px" src="/image/proj1.png" alt="" srcset="">
          <a class="text-light" href="http://mickaelyass.github.io/pageweb/">project1.gthub.com</a>
       </div>
-      <div class="box ">
+      <div class="box " data-aos="fade-left">
         <img img width="450px" class="real"  height="250px" src="/image/proj2.jpg" alt="" srcset="">
         <a class="text-light" href="http://mickaelyass.github.io/pageweb/">project1.gthub.com</a>
      </div>
       </div>
 
       <div class="container-fluid d-flex gap-5 flex-wrap py-3 jsc">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
          <img width="450px" class="real"  height="250px" src="/image/proj3.png" alt="" srcset="">
          <a class="text-light" href="http://mickaelyass.github.io/pageweb/">project1.gthub.com</a>
       </div>
-      <div class="box ">
+      <div class="box " data-aos="fade-left">
         <img img width="450px" class="real"  height="250px" src="/image/cod.png" alt="" srcset="">
         <a class="text-light" href="http://mickaelyass.github.io/pageweb/">project1.gthub.com</a>
      </div>
@@ -135,7 +138,7 @@
      
    </div>
 
-    <section id="cont" class="contact row py-3   px-5 ">
+    <section id="cont" class="contact row py-3   px-5 " data-aos="fade-left">
       <div class="container">
         <div class="mb-5">
           <h2 class="text-verte">Contact</h2>
@@ -215,5 +218,9 @@
 
     <script src="js/bootstrap.js"></script>
     <script src="/js/hero.js"></script>
+    <script src="/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body> 
 </html>
