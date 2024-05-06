@@ -9,7 +9,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .pacc{
-    background-image:url("/image/3037_1400x1050.jpg");
+    background-image:url(./image/3037_1400x1050.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -61,7 +61,6 @@ a{
     justify-content: space-around;
 }
 .libor{
-   
     width: 250px;
     height: auto;
     margin-bottom: 10px;
@@ -105,49 +104,49 @@ background-color: green;
     padding: 20px;
    } 
    .htmlcssjc{
-    background-image: url("/image/htcssll.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/htcssll.png") ;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .pg{
-    background-image: url("/image/pngwing.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .bck{
-    background-image: url("/image/pngwing2.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .ps{
-    background-image: url("/image/pngwing3.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing3.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .php{
-    background-image: url("/image/pngwing1.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .os{
-    background-image: url("/image/pngwing4.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing4.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .an{
-    background-image: url("/image/pngwing5.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing5.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
    }
    .c{
-    background-image: url("/image/pngwing6.png");
+    background-image: url("/home/bonheur/Documents/monportofolio/image/pngwing6.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
